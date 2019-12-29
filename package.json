@@ -9,6 +9,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "node": {
+    "fs": "empty"
+  },
   "private": true,
   "dependencies": {
     "@angular-devkit/build-angular": "^0.803.21",
@@ -25,6 +28,7 @@
     "@fullcalendar/core": "^4.3.1",
     "@fullcalendar/daygrid": "^4.3.0",
     "core-js": "^2.5.4",
+    "file-saver": "^2.0.2",
     "rxjs": "^6.0.0",
     "zone.js": "~0.8.26"
   },
